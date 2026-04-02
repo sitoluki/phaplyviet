@@ -1,0 +1,22 @@
+[
+    {
+        "sampleId": "labor_sample_01",
+        "filePath": "fixtures/labor-law/raw/labor_law_sample_01.txt",
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+        "sourceName": "Curated Labor Gazette",
+        "sourceType": "official_curated",
+        "documentType": "labor_law",
+        "language": "vi",
+        "parserVersion": "labor-curated-v1"
+    },
+    {
+        "sampleId": "labor_sample_02",
+        "filePath": "fixtures/labor-law/raw/labor_law_sample_02.html",
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+        "sourceName": "Curated Labor Gazette",
+        "sourceType": "official_curated",
+        "documentType": "labor_law",
+        "language": "vi",
+        "parserVersion": "labor-curated-v1"
+    }
+]

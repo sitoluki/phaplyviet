@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2022",
+        "moduleResolution": "Bundler",
+        "lib": [
+            "ES2022"
+        ],
+        "types": [
+            "node"
+        ],
+        "strict": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@legal/db/*": [
+                "packages/db/src/*"
+            ],
+            "@legal/core/*": [
+                "packages/legal-core/src/*"
+            ],
+            "@legal/worker/*": [
+                "apps/worker/src/*"
+            ]
+        }
+    },
+    "include": [
+        "apps/**/*.ts",
+        "packages/**/*.ts",
+        "scripts/**/*.ts",
+        "scripts/**/*.mjs",
+        "tests/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

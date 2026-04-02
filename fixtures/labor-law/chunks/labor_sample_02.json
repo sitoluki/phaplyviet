@@ -1,0 +1,20 @@
+[
+  {
+    "chunkId": "ck_d111061c45badb63ed4a861141e9c779",
+    "sectionType": "article",
+    "citationLabel": "Article 1",
+    "chunkText": "Nguyên tắc áp dụng"
+  },
+  {
+    "chunkId": "ck_12591b6775dc3f669b24c9f5868eb5c4",
+    "sectionType": "clause",
+    "citationLabel": "Clause 1",
+    "chunkText": "Doanh nghiệp cần lưu hồ sơ nhân sự đầy đủ.\nX câu này không theo mẫu chuẩn và cần ghi nhận."
+  },
+  {
+    "chunkId": "ck_45e21d92b0daeb90868e34c8c62d0c3a",
+    "sectionType": "point",
+    "citationLabel": "Point a",
+    "chunkText": "Bố trí làm việc linh hoạt khi có thể."
+  }
+]

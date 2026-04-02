@@ -1,0 +1,50 @@
+[
+  {
+    "chunkId": "ck_5b0b07e2b3bc3744b6fa514c0c8e9376",
+    "sectionType": "article",
+    "citationLabel": "Article 1",
+    "chunkText": "Phạm vi điều chỉnh"
+  },
+  {
+    "chunkId": "ck_1aa9406723850b5aeeb0de0a4ddf5230",
+    "sectionType": "clause",
+    "citationLabel": "Clause 1",
+    "chunkText": "Văn bản này quy định quyền và nghĩa vụ cơ bản của người lao động."
+  },
+  {
+    "chunkId": "ck_6bc61845d0dac1372a882293619fe26f",
+    "sectionType": "clause",
+    "citationLabel": "Clause 2",
+    "chunkText": "Người sử dụng lao động phải bảo đảm an toàn, tiền lương và thời giờ làm việc."
+  },
+  {
+    "chunkId": "ck_8683d32ec32e9a5bf700bc8a037fb051",
+    "sectionType": "point",
+    "citationLabel": "Point a",
+    "chunkText": "Quyền được nghỉ giữa giờ."
+  },
+  {
+    "chunkId": "ck_240f5f5f17c327395a3a056d18c39037",
+    "sectionType": "point",
+    "citationLabel": "Point b",
+    "chunkText": "Quyền được trả lương đúng hạn."
+  },
+  {
+    "chunkId": "ck_90492f9c938ff1b56cf4f4d0efc5d39b",
+    "sectionType": "article",
+    "citationLabel": "Article 2",
+    "chunkText": "Giải thích từ ngữ"
+  },
+  {
+    "chunkId": "ck_e972c5ce5aa1847e40101aaa6a52bc0b",
+    "sectionType": "clause",
+    "citationLabel": "Clause 1",
+    "chunkText": "Người lao động là người làm việc theo hợp đồng lao động."
+  },
+  {
+    "chunkId": "ck_52f28f51ec5759addb28c7f262b6ec31",
+    "sectionType": "clause",
+    "citationLabel": "Clause 2",
+    "chunkText": "Người sử dụng lao động là cơ quan, tổ chức, doanh nghiệp hoặc cá nhân."
+  }
+]

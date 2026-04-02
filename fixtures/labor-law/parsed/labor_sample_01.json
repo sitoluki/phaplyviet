@@ -1,0 +1,602 @@
+{
+  "parseStatus": "needs_review",
+  "normalizedDocument": {
+    "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+    "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+    "sourceName": "Curated Labor Gazette",
+    "sourceType": "official_curated",
+    "documentType": "labor_law",
+    "title": "LUẬT LAO ĐỘNG MẪU",
+    "numberSymbol": "2026/QH14",
+    "issuingBody": "Quốc hội",
+    "signedDate": "2026-01-15",
+    "effectiveDate": "2026-03-01",
+    "legalStatus": "unknown",
+    "rawContent": "LUẬT LAO ĐỘNG MẪU\r\nSố: 2026/QH14\r\nCơ quan ban hành: Quốc hội\r\nNgày ban hành: 2026-01-15\r\nHiệu lực từ: 2026-03-01\r\n\r\nPHẦN I. NHỮNG QUY ĐỊNH CHUNG\r\nCHƯƠNG I. PHẠM VI ĐIỀU CHỈNH\r\nMỤC 1. NGUYÊN TẮC CHUNG\r\n\r\nĐiều 1. Phạm vi điều chỉnh\r\n1. Văn bản này quy định quyền và nghĩa vụ cơ bản của người lao động.\r\n2. Người sử dụng lao động phải bảo đảm an toàn, tiền lương và thời giờ làm việc.\r\na) Quyền được nghỉ giữa giờ.\r\nb) Quyền được trả lương đúng hạn.\r\n\r\nĐiều 2. Giải thích từ ngữ\r\n1. Người lao động là người làm việc theo hợp đồng lao động.\r\n2. Người sử dụng lao động là cơ quan, tổ chức, doanh nghiệp hoặc cá nhân.\r\n",
+    "normalizedContent": "LUẬT LAO ĐỘNG MẪU\nSố: 2026/QH14\nCơ quan ban hành: Quốc hội\nNgày ban hành: 2026-01-15\nHiệu lực từ: 2026-03-01\n\nPHẦN I. NHỮNG QUY ĐỊNH CHUNG\nCHƯƠNG I. PHẠM VI ĐIỀU CHỈNH\nMỤC 1. NGUYÊN TẮC CHUNG\n\nĐiều 1. Phạm vi điều chỉnh\n1. Văn bản này quy định quyền và nghĩa vụ cơ bản của người lao động.\n2. Người sử dụng lao động phải bảo đảm an toàn, tiền lương và thời giờ làm việc.\na) Quyền được nghỉ giữa giờ.\nb) Quyền được trả lương đúng hạn.\n\nĐiều 2. Giải thích từ ngữ\n1. Người lao động là người làm việc theo hợp đồng lao động.\n2. Người sử dụng lao động là cơ quan, tổ chức, doanh nghiệp hoặc cá nhân.",
+    "language": "vi",
+    "metadataJson": {
+      "sampleId": "labor_sample_01",
+      "parserVersion": "labor-curated-v1",
+      "parseConfidence": 0.71,
+      "title": "LUẬT LAO ĐỘNG MẪU",
+      "numberSymbol": "2026/QH14",
+      "issuingBody": "Quốc hội",
+      "signedDate": "2026-01-15",
+      "effectiveDate": "2026-03-01",
+      "expiryDate": null
+    },
+    "checksum": "568ab016253fce204282add2792c0cf05238970f37a340ef332c612b5d830449"
+  },
+  "sections": [
+    {
+      "legalDocumentSectionId": "sec_c2b60a654c0be6ccb053a0fdca4468b8",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "parentSectionId": null,
+      "sectionType": "part",
+      "sectionNumber": "I",
+      "heading": "NHỮNG QUY ĐỊNH CHUNG",
+      "title": "NHỮNG QUY ĐỊNH CHUNG",
+      "plainText": "",
+      "orderIndex": 1,
+      "pathKey": "sp_ef9eec824d2a38da449e8157",
+      "citationLabel": "I",
+      "metadataJson": {
+        "sourcePathKey": "sp_ef9eec824d2a38da449e8157",
+        "structured": true
+      },
+      "depth": 1,
+      "childrenSectionIds": [
+        "sec_ba30fcdf6b7efe79d99517524fe4b870"
+      ]
+    },
+    {
+      "legalDocumentSectionId": "sec_ba30fcdf6b7efe79d99517524fe4b870",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "parentSectionId": "sec_c2b60a654c0be6ccb053a0fdca4468b8",
+      "sectionType": "chapter",
+      "sectionNumber": "I",
+      "heading": "PHẠM VI ĐIỀU CHỈNH",
+      "title": "PHẠM VI ĐIỀU CHỈNH",
+      "plainText": "",
+      "orderIndex": 1,
+      "pathKey": "sp_acf9eb9a6e33547f3793d324",
+      "citationLabel": "I",
+      "metadataJson": {
+        "sourcePathKey": "sp_acf9eb9a6e33547f3793d324",
+        "parentPathKey": "sp_ef9eec824d2a38da449e8157",
+        "structured": true
+      },
+      "depth": 2,
+      "childrenSectionIds": [
+        "sec_d86723601aff08f557c23e44373f7fe8"
+      ],
+      "parentPathKey": "sp_ef9eec824d2a38da449e8157"
+    },
+    {
+      "legalDocumentSectionId": "sec_d86723601aff08f557c23e44373f7fe8",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "parentSectionId": "sec_ba30fcdf6b7efe79d99517524fe4b870",
+      "sectionType": "section",
+      "sectionNumber": "1",
+      "heading": "NGUYÊN TẮC CHUNG",
+      "title": "NGUYÊN TẮC CHUNG",
+      "plainText": "",
+      "orderIndex": 1,
+      "pathKey": "sp_170381e15b4090e563c04549",
+      "citationLabel": "1",
+      "metadataJson": {
+        "sourcePathKey": "sp_170381e15b4090e563c04549",
+        "parentPathKey": "sp_acf9eb9a6e33547f3793d324",
+        "structured": true
+      },
+      "depth": 3,
+      "childrenSectionIds": [
+        "sec_544486fb398e37a3b99372555b5d2899",
+        "sec_c7531f135c82c719fc7f176d5f0a2c85"
+      ],
+      "parentPathKey": "sp_acf9eb9a6e33547f3793d324"
+    },
+    {
+      "legalDocumentSectionId": "sec_544486fb398e37a3b99372555b5d2899",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "parentSectionId": "sec_d86723601aff08f557c23e44373f7fe8",
+      "sectionType": "article",
+      "sectionNumber": "1",
+      "heading": "Phạm vi điều chỉnh",
+      "title": "Phạm vi điều chỉnh",
+      "plainText": "",
+      "orderIndex": 1,
+      "pathKey": "sp_97e4777434e6809e42c2742d",
+      "citationLabel": "Article 1",
+      "metadataJson": {
+        "sourcePathKey": "sp_97e4777434e6809e42c2742d",
+        "parentPathKey": "sp_170381e15b4090e563c04549",
+        "structured": true
+      },
+      "depth": 4,
+      "childrenSectionIds": [
+        "sec_ab650d60a301bad5de568bcab6ea905d",
+        "sec_b5747fccd1df3114b0cd1f857824ba51"
+      ],
+      "parentPathKey": "sp_170381e15b4090e563c04549"
+    },
+    {
+      "legalDocumentSectionId": "sec_ab650d60a301bad5de568bcab6ea905d",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "parentSectionId": "sec_544486fb398e37a3b99372555b5d2899",
+      "sectionType": "clause",
+      "sectionNumber": "1",
+      "heading": "Văn bản này quy định quyền và nghĩa vụ cơ bản của người lao động.",
+      "title": "Văn bản này quy định quyền và nghĩa vụ cơ bản của người lao động.",
+      "plainText": "",
+      "orderIndex": 1,
+      "pathKey": "sp_daccf758e1bdd50fba6a659f",
+      "citationLabel": "Clause 1",
+      "metadataJson": {
+        "sourcePathKey": "sp_daccf758e1bdd50fba6a659f",
+        "parentPathKey": "sp_97e4777434e6809e42c2742d",
+        "structured": true
+      },
+      "depth": 5,
+      "childrenSectionIds": [],
+      "parentPathKey": "sp_97e4777434e6809e42c2742d"
+    },
+    {
+      "legalDocumentSectionId": "sec_b5747fccd1df3114b0cd1f857824ba51",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "parentSectionId": "sec_544486fb398e37a3b99372555b5d2899",
+      "sectionType": "clause",
+      "sectionNumber": "2",
+      "heading": "Người sử dụng lao động phải bảo đảm an toàn, tiền lương và thời giờ làm việc.",
+      "title": "Người sử dụng lao động phải bảo đảm an toàn, tiền lương và thời giờ làm việc.",
+      "plainText": "",
+      "orderIndex": 2,
+      "pathKey": "sp_4367f55e263ed70332a43e06",
+      "citationLabel": "Clause 2",
+      "metadataJson": {
+        "sourcePathKey": "sp_4367f55e263ed70332a43e06",
+        "parentPathKey": "sp_97e4777434e6809e42c2742d",
+        "structured": true
+      },
+      "depth": 5,
+      "childrenSectionIds": [
+        "sec_0a8036f5be1fd208f9bd2feb63d2d014",
+        "sec_15ff37b7141eafa4bdd4447dc2eed300"
+      ],
+      "parentPathKey": "sp_97e4777434e6809e42c2742d"
+    },
+    {
+      "legalDocumentSectionId": "sec_0a8036f5be1fd208f9bd2feb63d2d014",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "parentSectionId": "sec_b5747fccd1df3114b0cd1f857824ba51",
+      "sectionType": "point",
+      "sectionNumber": "a",
+      "heading": "Quyền được nghỉ giữa giờ.",
+      "title": "Quyền được nghỉ giữa giờ.",
+      "plainText": "",
+      "orderIndex": 1,
+      "pathKey": "sp_49de473532bd543612ba9c76",
+      "citationLabel": "Point a",
+      "metadataJson": {
+        "sourcePathKey": "sp_49de473532bd543612ba9c76",
+        "parentPathKey": "sp_4367f55e263ed70332a43e06",
+        "structured": true
+      },
+      "depth": 6,
+      "childrenSectionIds": [],
+      "parentPathKey": "sp_4367f55e263ed70332a43e06"
+    },
+    {
+      "legalDocumentSectionId": "sec_15ff37b7141eafa4bdd4447dc2eed300",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "parentSectionId": "sec_b5747fccd1df3114b0cd1f857824ba51",
+      "sectionType": "point",
+      "sectionNumber": "b",
+      "heading": "Quyền được trả lương đúng hạn.",
+      "title": "Quyền được trả lương đúng hạn.",
+      "plainText": "",
+      "orderIndex": 2,
+      "pathKey": "sp_cd86bc4e607b8553be6d498c",
+      "citationLabel": "Point b",
+      "metadataJson": {
+        "sourcePathKey": "sp_cd86bc4e607b8553be6d498c",
+        "parentPathKey": "sp_4367f55e263ed70332a43e06",
+        "structured": true
+      },
+      "depth": 6,
+      "childrenSectionIds": [],
+      "parentPathKey": "sp_4367f55e263ed70332a43e06"
+    },
+    {
+      "legalDocumentSectionId": "sec_c7531f135c82c719fc7f176d5f0a2c85",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "parentSectionId": "sec_d86723601aff08f557c23e44373f7fe8",
+      "sectionType": "article",
+      "sectionNumber": "2",
+      "heading": "Giải thích từ ngữ",
+      "title": "Giải thích từ ngữ",
+      "plainText": "",
+      "orderIndex": 2,
+      "pathKey": "sp_18b0725f2721890a2d963b4c",
+      "citationLabel": "Article 2",
+      "metadataJson": {
+        "sourcePathKey": "sp_18b0725f2721890a2d963b4c",
+        "parentPathKey": "sp_170381e15b4090e563c04549",
+        "structured": true
+      },
+      "depth": 4,
+      "childrenSectionIds": [
+        "sec_22de1c154dee3440698d9329289e0f6f",
+        "sec_05c778aaf79c713ed7d9fe5779a26f20"
+      ],
+      "parentPathKey": "sp_170381e15b4090e563c04549"
+    },
+    {
+      "legalDocumentSectionId": "sec_22de1c154dee3440698d9329289e0f6f",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "parentSectionId": "sec_c7531f135c82c719fc7f176d5f0a2c85",
+      "sectionType": "clause",
+      "sectionNumber": "1",
+      "heading": "Người lao động là người làm việc theo hợp đồng lao động.",
+      "title": "Người lao động là người làm việc theo hợp đồng lao động.",
+      "plainText": "",
+      "orderIndex": 3,
+      "pathKey": "sp_10e2346aa0f465a6d9b69bf6",
+      "citationLabel": "Clause 1",
+      "metadataJson": {
+        "sourcePathKey": "sp_10e2346aa0f465a6d9b69bf6",
+        "parentPathKey": "sp_18b0725f2721890a2d963b4c",
+        "structured": true
+      },
+      "depth": 5,
+      "childrenSectionIds": [],
+      "parentPathKey": "sp_18b0725f2721890a2d963b4c"
+    },
+    {
+      "legalDocumentSectionId": "sec_05c778aaf79c713ed7d9fe5779a26f20",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "parentSectionId": "sec_c7531f135c82c719fc7f176d5f0a2c85",
+      "sectionType": "clause",
+      "sectionNumber": "2",
+      "heading": "Người sử dụng lao động là cơ quan, tổ chức, doanh nghiệp hoặc cá nhân.",
+      "title": "Người sử dụng lao động là cơ quan, tổ chức, doanh nghiệp hoặc cá nhân.",
+      "plainText": "",
+      "orderIndex": 4,
+      "pathKey": "sp_cff8f61e4026dbe6762570ff",
+      "citationLabel": "Clause 2",
+      "metadataJson": {
+        "sourcePathKey": "sp_cff8f61e4026dbe6762570ff",
+        "parentPathKey": "sp_18b0725f2721890a2d963b4c",
+        "structured": true
+      },
+      "depth": 5,
+      "childrenSectionIds": [],
+      "parentPathKey": "sp_18b0725f2721890a2d963b4c"
+    }
+  ],
+  "chunks": [
+    {
+      "legalDocumentChunkId": "ck_5b0b07e2b3bc3744b6fa514c0c8e9376",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_544486fb398e37a3b99372555b5d2899",
+      "chunkIndex": 0,
+      "chunkText": "Phạm vi điều chỉnh",
+      "citationLabel": "Article 1",
+      "citationMetadataJson": {
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+        "sourceName": "Curated Labor Gazette",
+        "sectionPathKey": "sp_97e4777434e6809e42c2742d",
+        "sectionType": "article",
+        "sectionNumber": "1",
+        "parser": "labor-curated-v1"
+      },
+      "tokenCount": 4,
+      "contentHash": "e449c1170f1f053c088ecfebeeb9dc2628b7685646d69f3d3df59545ad2d7410",
+      "sectionPathKey": "sp_97e4777434e6809e42c2742d",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette"
+    },
+    {
+      "legalDocumentChunkId": "ck_1aa9406723850b5aeeb0de0a4ddf5230",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_ab650d60a301bad5de568bcab6ea905d",
+      "chunkIndex": 1,
+      "chunkText": "Văn bản này quy định quyền và nghĩa vụ cơ bản của người lao động.",
+      "citationLabel": "Clause 1",
+      "citationMetadataJson": {
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+        "sourceName": "Curated Labor Gazette",
+        "sectionPathKey": "sp_daccf758e1bdd50fba6a659f",
+        "sectionType": "clause",
+        "sectionNumber": "1",
+        "parser": "labor-curated-v1"
+      },
+      "tokenCount": 15,
+      "contentHash": "053ad553a397377259859717ac1e9cfc3c214810cf80cfca8b660cea83515f32",
+      "sectionPathKey": "sp_daccf758e1bdd50fba6a659f",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette"
+    },
+    {
+      "legalDocumentChunkId": "ck_6bc61845d0dac1372a882293619fe26f",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_b5747fccd1df3114b0cd1f857824ba51",
+      "chunkIndex": 2,
+      "chunkText": "Người sử dụng lao động phải bảo đảm an toàn, tiền lương và thời giờ làm việc.",
+      "citationLabel": "Clause 2",
+      "citationMetadataJson": {
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+        "sourceName": "Curated Labor Gazette",
+        "sectionPathKey": "sp_4367f55e263ed70332a43e06",
+        "sectionType": "clause",
+        "sectionNumber": "2",
+        "parser": "labor-curated-v1"
+      },
+      "tokenCount": 17,
+      "contentHash": "6bd4852b68b32e7f4958a93ad85f5b2ecaa334617b8b91e1d1c955bc09942e56",
+      "sectionPathKey": "sp_4367f55e263ed70332a43e06",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette"
+    },
+    {
+      "legalDocumentChunkId": "ck_8683d32ec32e9a5bf700bc8a037fb051",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_0a8036f5be1fd208f9bd2feb63d2d014",
+      "chunkIndex": 3,
+      "chunkText": "Quyền được nghỉ giữa giờ.",
+      "citationLabel": "Point a",
+      "citationMetadataJson": {
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+        "sourceName": "Curated Labor Gazette",
+        "sectionPathKey": "sp_49de473532bd543612ba9c76",
+        "sectionType": "point",
+        "sectionNumber": "a",
+        "parser": "labor-curated-v1"
+      },
+      "tokenCount": 5,
+      "contentHash": "238c37f7299eb19baeca8199029e640168cfc327edfcdd72ef0dad5b4ba41d66",
+      "sectionPathKey": "sp_49de473532bd543612ba9c76",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette"
+    },
+    {
+      "legalDocumentChunkId": "ck_240f5f5f17c327395a3a056d18c39037",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_15ff37b7141eafa4bdd4447dc2eed300",
+      "chunkIndex": 4,
+      "chunkText": "Quyền được trả lương đúng hạn.",
+      "citationLabel": "Point b",
+      "citationMetadataJson": {
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+        "sourceName": "Curated Labor Gazette",
+        "sectionPathKey": "sp_cd86bc4e607b8553be6d498c",
+        "sectionType": "point",
+        "sectionNumber": "b",
+        "parser": "labor-curated-v1"
+      },
+      "tokenCount": 6,
+      "contentHash": "bd3a9d00f7a7a873035d8962a2cc1baecf938c1b23ffb1ac65fb3729b458f785",
+      "sectionPathKey": "sp_cd86bc4e607b8553be6d498c",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette"
+    },
+    {
+      "legalDocumentChunkId": "ck_90492f9c938ff1b56cf4f4d0efc5d39b",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_c7531f135c82c719fc7f176d5f0a2c85",
+      "chunkIndex": 5,
+      "chunkText": "Giải thích từ ngữ",
+      "citationLabel": "Article 2",
+      "citationMetadataJson": {
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+        "sourceName": "Curated Labor Gazette",
+        "sectionPathKey": "sp_18b0725f2721890a2d963b4c",
+        "sectionType": "article",
+        "sectionNumber": "2",
+        "parser": "labor-curated-v1"
+      },
+      "tokenCount": 4,
+      "contentHash": "da861e967a68ec41721012400cd9ef43d24ce07b007a10115aa8817cde38d4ef",
+      "sectionPathKey": "sp_18b0725f2721890a2d963b4c",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette"
+    },
+    {
+      "legalDocumentChunkId": "ck_e972c5ce5aa1847e40101aaa6a52bc0b",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_22de1c154dee3440698d9329289e0f6f",
+      "chunkIndex": 6,
+      "chunkText": "Người lao động là người làm việc theo hợp đồng lao động.",
+      "citationLabel": "Clause 1",
+      "citationMetadataJson": {
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+        "sourceName": "Curated Labor Gazette",
+        "sectionPathKey": "sp_10e2346aa0f465a6d9b69bf6",
+        "sectionType": "clause",
+        "sectionNumber": "1",
+        "parser": "labor-curated-v1"
+      },
+      "tokenCount": 12,
+      "contentHash": "8a3d77c33241a284aa5c72176d0efa94b84be2b22d492c997280e0f5278dd83f",
+      "sectionPathKey": "sp_10e2346aa0f465a6d9b69bf6",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette"
+    },
+    {
+      "legalDocumentChunkId": "ck_52f28f51ec5759addb28c7f262b6ec31",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_05c778aaf79c713ed7d9fe5779a26f20",
+      "chunkIndex": 7,
+      "chunkText": "Người sử dụng lao động là cơ quan, tổ chức, doanh nghiệp hoặc cá nhân.",
+      "citationLabel": "Clause 2",
+      "citationMetadataJson": {
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+        "sourceName": "Curated Labor Gazette",
+        "sectionPathKey": "sp_cff8f61e4026dbe6762570ff",
+        "sectionType": "clause",
+        "sectionNumber": "2",
+        "parser": "labor-curated-v1"
+      },
+      "tokenCount": 15,
+      "contentHash": "d0a00967e7557a387d5db32040cad303815f83e755768109b760eaf220ea42fb",
+      "sectionPathKey": "sp_cff8f61e4026dbe6762570ff",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "UNPARSED_FRAGMENTS",
+      "message": "Parser captured 5 unparsed fragment(s) for review.",
+      "severity": "warning",
+      "fragmentId": "frag_1_16e721d9"
+    }
+  ],
+  "parseConfidence": 0.71,
+  "rawContent": "LUẬT LAO ĐỘNG MẪU\r\nSố: 2026/QH14\r\nCơ quan ban hành: Quốc hội\r\nNgày ban hành: 2026-01-15\r\nHiệu lực từ: 2026-03-01\r\n\r\nPHẦN I. NHỮNG QUY ĐỊNH CHUNG\r\nCHƯƠNG I. PHẠM VI ĐIỀU CHỈNH\r\nMỤC 1. NGUYÊN TẮC CHUNG\r\n\r\nĐiều 1. Phạm vi điều chỉnh\r\n1. Văn bản này quy định quyền và nghĩa vụ cơ bản của người lao động.\r\n2. Người sử dụng lao động phải bảo đảm an toàn, tiền lương và thời giờ làm việc.\r\na) Quyền được nghỉ giữa giờ.\r\nb) Quyền được trả lương đúng hạn.\r\n\r\nĐiều 2. Giải thích từ ngữ\r\n1. Người lao động là người làm việc theo hợp đồng lao động.\r\n2. Người sử dụng lao động là cơ quan, tổ chức, doanh nghiệp hoặc cá nhân.\r\n",
+  "normalizedContent": "LUẬT LAO ĐỘNG MẪU\nSố: 2026/QH14\nCơ quan ban hành: Quốc hội\nNgày ban hành: 2026-01-15\nHiệu lực từ: 2026-03-01\n\nPHẦN I. NHỮNG QUY ĐỊNH CHUNG\nCHƯƠNG I. PHẠM VI ĐIỀU CHỈNH\nMỤC 1. NGUYÊN TẮC CHUNG\n\nĐiều 1. Phạm vi điều chỉnh\n1. Văn bản này quy định quyền và nghĩa vụ cơ bản của người lao động.\n2. Người sử dụng lao động phải bảo đảm an toàn, tiền lương và thời giờ làm việc.\na) Quyền được nghỉ giữa giờ.\nb) Quyền được trả lương đúng hạn.\n\nĐiều 2. Giải thích từ ngữ\n1. Người lao động là người làm việc theo hợp đồng lao động.\n2. Người sử dụng lao động là cơ quan, tổ chức, doanh nghiệp hoặc cá nhân.",
+  "parserVersion": "labor-curated-v1",
+  "sourceType": "official_curated",
+  "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+  "sourceName": "Curated Labor Gazette",
+  "documentType": "labor_law",
+  "metadata": {
+    "title": "LUẬT LAO ĐỘNG MẪU",
+    "language": "vi",
+    "numberSymbol": "2026/QH14",
+    "issuingBody": "Quốc hội",
+    "signedDate": "2026-01-15",
+    "effectiveDate": "2026-03-01"
+  },
+  "unparsedFragments": [
+    {
+      "fragmentId": "frag_1_16e721d9",
+      "text": "LUẬT LAO ĐỘNG MẪU",
+      "reason": "unrecognized_line_or_uncertain_structure",
+      "lineNumber": 1
+    },
+    {
+      "fragmentId": "frag_2_0b331179",
+      "text": "Số: 2026/QH14",
+      "reason": "unrecognized_line_or_uncertain_structure",
+      "lineNumber": 2
+    },
+    {
+      "fragmentId": "frag_3_07f186f3",
+      "text": "Cơ quan ban hành: Quốc hội",
+      "reason": "unrecognized_line_or_uncertain_structure",
+      "lineNumber": 3
+    },
+    {
+      "fragmentId": "frag_4_c0f1a215",
+      "text": "Ngày ban hành: 2026-01-15",
+      "reason": "unrecognized_line_or_uncertain_structure",
+      "lineNumber": 4
+    },
+    {
+      "fragmentId": "frag_5_e267dbde",
+      "text": "Hiệu lực từ: 2026-03-01",
+      "reason": "unrecognized_line_or_uncertain_structure",
+      "lineNumber": 5
+    }
+  ],
+  "citations": [
+    {
+      "citationId": "C1",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_544486fb398e37a3b99372555b5d2899",
+      "legalDocumentChunkId": "ck_5b0b07e2b3bc3744b6fa514c0c8e9376",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette",
+      "citationLabel": "Article 1",
+      "sectionType": "article",
+      "sectionNumber": "1",
+      "pathKey": "sp_97e4777434e6809e42c2742d"
+    },
+    {
+      "citationId": "C2",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_ab650d60a301bad5de568bcab6ea905d",
+      "legalDocumentChunkId": "ck_1aa9406723850b5aeeb0de0a4ddf5230",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette",
+      "citationLabel": "Clause 1",
+      "sectionType": "clause",
+      "sectionNumber": "1",
+      "pathKey": "sp_daccf758e1bdd50fba6a659f"
+    },
+    {
+      "citationId": "C3",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_b5747fccd1df3114b0cd1f857824ba51",
+      "legalDocumentChunkId": "ck_6bc61845d0dac1372a882293619fe26f",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette",
+      "citationLabel": "Clause 2",
+      "sectionType": "clause",
+      "sectionNumber": "2",
+      "pathKey": "sp_4367f55e263ed70332a43e06"
+    },
+    {
+      "citationId": "C4",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_0a8036f5be1fd208f9bd2feb63d2d014",
+      "legalDocumentChunkId": "ck_8683d32ec32e9a5bf700bc8a037fb051",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette",
+      "citationLabel": "Point a",
+      "sectionType": "point",
+      "sectionNumber": "a",
+      "pathKey": "sp_49de473532bd543612ba9c76"
+    },
+    {
+      "citationId": "C5",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_15ff37b7141eafa4bdd4447dc2eed300",
+      "legalDocumentChunkId": "ck_240f5f5f17c327395a3a056d18c39037",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette",
+      "citationLabel": "Point b",
+      "sectionType": "point",
+      "sectionNumber": "b",
+      "pathKey": "sp_cd86bc4e607b8553be6d498c"
+    },
+    {
+      "citationId": "C6",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_c7531f135c82c719fc7f176d5f0a2c85",
+      "legalDocumentChunkId": "ck_90492f9c938ff1b56cf4f4d0efc5d39b",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette",
+      "citationLabel": "Article 2",
+      "sectionType": "article",
+      "sectionNumber": "2",
+      "pathKey": "sp_18b0725f2721890a2d963b4c"
+    },
+    {
+      "citationId": "C7",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_22de1c154dee3440698d9329289e0f6f",
+      "legalDocumentChunkId": "ck_e972c5ce5aa1847e40101aaa6a52bc0b",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette",
+      "citationLabel": "Clause 1",
+      "sectionType": "clause",
+      "sectionNumber": "1",
+      "pathKey": "sp_10e2346aa0f465a6d9b69bf6"
+    },
+    {
+      "citationId": "C8",
+      "legalDocumentId": "ld_efbd7e524bd8e090a6cf5c884e38a958",
+      "legalDocumentSectionId": "sec_05c778aaf79c713ed7d9fe5779a26f20",
+      "legalDocumentChunkId": "ck_52f28f51ec5759addb28c7f262b6ec31",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-01",
+      "sourceName": "Curated Labor Gazette",
+      "citationLabel": "Clause 2",
+      "sectionType": "clause",
+      "sectionNumber": "2",
+      "pathKey": "sp_cff8f61e4026dbe6762570ff"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "legal_sources": [
+        {
+            "legal_source_id": "source_labor_official_001",
+            "source_name": "Official labor law sources (curated)",
+            "source_type": "official_curated",
+            "base_url": "https://example.gov.vn/labor",
+            "jurisdiction": "VN",
+            "is_active": true,
+            "curated_only": true,
+            "source_notes": "Pilot domain: labor law only. Curated official-source list only.",
+            "retention_notes": "Keep raw snapshots and parse artifacts for audit and re-indexing. Do not overwrite immutable artifacts."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "phaplyviet-legal-ai",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "lint": "node scripts/lint.mjs",
+        "typecheck": "tsc -p tsconfig.json --noEmit",
+        "test": "vitest run",
+        "parse:samples": "tsx scripts/parse-samples.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^25.5.0",
+        "@types/pg": "^8.20.0",
+        "tsx": "^4.21.0",
+        "typescript": "^5.8.3",
+        "vitest": "^3.1.1"
+    },
+    "dependencies": {
+        "pdf-parse": "^2.4.5",
+        "pg": "^8.20.0"
+    }
+}

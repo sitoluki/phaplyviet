@@ -1,0 +1,283 @@
+{
+  "parseStatus": "needs_review",
+  "normalizedDocument": {
+    "legalDocumentId": "ld_6aa983693f2b79147bdb4a2a33403ae6",
+    "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+    "sourceName": "Curated Labor Gazette",
+    "sourceType": "official_curated",
+    "documentType": "labor_law",
+    "title": "Quy định mẫu về lao động",
+    "issuingBody": "Sở Lao động",
+    "signedDate": "2026-02-01",
+    "effectiveDate": "2026-02-15",
+    "legalStatus": "unknown",
+    "rawContent": "<html>\r\n\r\n<body>\r\n    <article>\r\n        <h1>Quy định mẫu về lao động</h1>\r\n        <p>Cơ quan ban hành: Sở Lao động</p>\r\n        <p>Ngày ban hành: 2026-02-01</p>\r\n        <p>Hiệu lực từ: 2026-02-15</p>\r\n        <p>Ghi chú: bản mẫu dùng cho thử nghiệm nội bộ.</p>\r\n        <p>CHƯƠNG I. QUY ĐỊNH CHUNG</p>\r\n        <p>Điều 1. Nguyên tắc áp dụng</p>\r\n        <p>1. Doanh nghiệp cần lưu hồ sơ nhân sự đầy đủ.</p>\r\n        <p>X câu này không theo mẫu chuẩn và cần ghi nhận.</p>\r\n        <p>a) Bố trí làm việc linh hoạt khi có thể.</p>\r\n    </article>\r\n</body>\r\n\r\n</html>",
+    "normalizedContent": "Quy định mẫu về lao động\n\nCơ quan ban hành: Sở Lao động\n\nNgày ban hành: 2026-02-01\n\nHiệu lực từ: 2026-02-15\n\nGhi chú: bản mẫu dùng cho thử nghiệm nội bộ.\n\nCHƯƠNG I. QUY ĐỊNH CHUNG\n\nĐiều 1. Nguyên tắc áp dụng\n\n1. Doanh nghiệp cần lưu hồ sơ nhân sự đầy đủ.\n\nX câu này không theo mẫu chuẩn và cần ghi nhận.\n\na) Bố trí làm việc linh hoạt khi có thể.",
+    "language": "vi",
+    "metadataJson": {
+      "sampleId": "labor_sample_02",
+      "parserVersion": "labor-curated-v1",
+      "parseConfidence": 0.62,
+      "title": "Quy định mẫu về lao động",
+      "numberSymbol": null,
+      "issuingBody": "Sở Lao động",
+      "signedDate": "2026-02-01",
+      "effectiveDate": "2026-02-15",
+      "expiryDate": null
+    },
+    "checksum": "32e830a8748e5bfb7a2668310287eb28901a95eeb0c0ea91150dc434a52eb0b0"
+  },
+  "sections": [
+    {
+      "legalDocumentSectionId": "sec_066bdfe8fce5e3cc2b68ebd9af14d3cc",
+      "legalDocumentId": "ld_6aa983693f2b79147bdb4a2a33403ae6",
+      "parentSectionId": null,
+      "sectionType": "chapter",
+      "sectionNumber": "I",
+      "heading": "QUY ĐỊNH CHUNG",
+      "title": "QUY ĐỊNH CHUNG",
+      "plainText": "",
+      "orderIndex": 1,
+      "pathKey": "sp_a86d3bb90797124cec39aeba",
+      "citationLabel": "I",
+      "metadataJson": {
+        "sourcePathKey": "sp_a86d3bb90797124cec39aeba",
+        "structured": true
+      },
+      "depth": 2,
+      "childrenSectionIds": [
+        "sec_44b69801e3358223a05be147e10a8c8f"
+      ]
+    },
+    {
+      "legalDocumentSectionId": "sec_44b69801e3358223a05be147e10a8c8f",
+      "legalDocumentId": "ld_6aa983693f2b79147bdb4a2a33403ae6",
+      "parentSectionId": "sec_066bdfe8fce5e3cc2b68ebd9af14d3cc",
+      "sectionType": "article",
+      "sectionNumber": "1",
+      "heading": "Nguyên tắc áp dụng",
+      "title": "Nguyên tắc áp dụng",
+      "plainText": "",
+      "orderIndex": 1,
+      "pathKey": "sp_76ed3c42d410849a6fe8eee6",
+      "citationLabel": "Article 1",
+      "metadataJson": {
+        "sourcePathKey": "sp_76ed3c42d410849a6fe8eee6",
+        "parentPathKey": "sp_a86d3bb90797124cec39aeba",
+        "structured": true
+      },
+      "depth": 4,
+      "childrenSectionIds": [
+        "sec_923dd9556eb10687df7da78a16287643"
+      ],
+      "parentPathKey": "sp_a86d3bb90797124cec39aeba"
+    },
+    {
+      "legalDocumentSectionId": "sec_923dd9556eb10687df7da78a16287643",
+      "legalDocumentId": "ld_6aa983693f2b79147bdb4a2a33403ae6",
+      "parentSectionId": "sec_44b69801e3358223a05be147e10a8c8f",
+      "sectionType": "clause",
+      "sectionNumber": "1",
+      "heading": "Doanh nghiệp cần lưu hồ sơ nhân sự đầy đủ.",
+      "title": "Doanh nghiệp cần lưu hồ sơ nhân sự đầy đủ.",
+      "plainText": "X câu này không theo mẫu chuẩn và cần ghi nhận.",
+      "orderIndex": 1,
+      "pathKey": "sp_b1c54c1908f8661750ef882c",
+      "citationLabel": "Clause 1",
+      "metadataJson": {
+        "sourcePathKey": "sp_b1c54c1908f8661750ef882c",
+        "parentPathKey": "sp_76ed3c42d410849a6fe8eee6",
+        "structured": true
+      },
+      "depth": 5,
+      "childrenSectionIds": [
+        "sec_59da6ba38b737ce3fff98021aa646b7c"
+      ],
+      "parentPathKey": "sp_76ed3c42d410849a6fe8eee6"
+    },
+    {
+      "legalDocumentSectionId": "sec_59da6ba38b737ce3fff98021aa646b7c",
+      "legalDocumentId": "ld_6aa983693f2b79147bdb4a2a33403ae6",
+      "parentSectionId": "sec_923dd9556eb10687df7da78a16287643",
+      "sectionType": "point",
+      "sectionNumber": "a",
+      "heading": "Bố trí làm việc linh hoạt khi có thể.",
+      "title": "Bố trí làm việc linh hoạt khi có thể.",
+      "plainText": "",
+      "orderIndex": 1,
+      "pathKey": "sp_1e4739309ff9e5220456e0d2",
+      "citationLabel": "Point a",
+      "metadataJson": {
+        "sourcePathKey": "sp_1e4739309ff9e5220456e0d2",
+        "parentPathKey": "sp_b1c54c1908f8661750ef882c",
+        "structured": true
+      },
+      "depth": 6,
+      "childrenSectionIds": [],
+      "parentPathKey": "sp_b1c54c1908f8661750ef882c"
+    }
+  ],
+  "chunks": [
+    {
+      "legalDocumentChunkId": "ck_d111061c45badb63ed4a861141e9c779",
+      "legalDocumentId": "ld_6aa983693f2b79147bdb4a2a33403ae6",
+      "legalDocumentSectionId": "sec_44b69801e3358223a05be147e10a8c8f",
+      "chunkIndex": 0,
+      "chunkText": "Nguyên tắc áp dụng",
+      "citationLabel": "Article 1",
+      "citationMetadataJson": {
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+        "sourceName": "Curated Labor Gazette",
+        "sectionPathKey": "sp_76ed3c42d410849a6fe8eee6",
+        "sectionType": "article",
+        "sectionNumber": "1",
+        "parser": "labor-curated-v1"
+      },
+      "tokenCount": 4,
+      "contentHash": "a8b79884f3d52a434ea9821e86210209a7890bbdacd9d11f57f4186644224bea",
+      "sectionPathKey": "sp_76ed3c42d410849a6fe8eee6",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+      "sourceName": "Curated Labor Gazette"
+    },
+    {
+      "legalDocumentChunkId": "ck_12591b6775dc3f669b24c9f5868eb5c4",
+      "legalDocumentId": "ld_6aa983693f2b79147bdb4a2a33403ae6",
+      "legalDocumentSectionId": "sec_923dd9556eb10687df7da78a16287643",
+      "chunkIndex": 1,
+      "chunkText": "Doanh nghiệp cần lưu hồ sơ nhân sự đầy đủ.\nX câu này không theo mẫu chuẩn và cần ghi nhận.",
+      "citationLabel": "Clause 1",
+      "citationMetadataJson": {
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+        "sourceName": "Curated Labor Gazette",
+        "sectionPathKey": "sp_b1c54c1908f8661750ef882c",
+        "sectionType": "clause",
+        "sectionNumber": "1",
+        "parser": "labor-curated-v1"
+      },
+      "tokenCount": 21,
+      "contentHash": "2845e2f0af2c754f3af7f2b81fcaa3c02454ae1c5c054a8e0754526d3adfbfcc",
+      "sectionPathKey": "sp_b1c54c1908f8661750ef882c",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+      "sourceName": "Curated Labor Gazette"
+    },
+    {
+      "legalDocumentChunkId": "ck_45e21d92b0daeb90868e34c8c62d0c3a",
+      "legalDocumentId": "ld_6aa983693f2b79147bdb4a2a33403ae6",
+      "legalDocumentSectionId": "sec_59da6ba38b737ce3fff98021aa646b7c",
+      "chunkIndex": 2,
+      "chunkText": "Bố trí làm việc linh hoạt khi có thể.",
+      "citationLabel": "Point a",
+      "citationMetadataJson": {
+        "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+        "sourceName": "Curated Labor Gazette",
+        "sectionPathKey": "sp_1e4739309ff9e5220456e0d2",
+        "sectionType": "point",
+        "sectionNumber": "a",
+        "parser": "labor-curated-v1"
+      },
+      "tokenCount": 9,
+      "contentHash": "06c05b366352500913343c91941bfcde5c403cdeeefe22d776232caa3e7dfb8c",
+      "sectionPathKey": "sp_1e4739309ff9e5220456e0d2",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+      "sourceName": "Curated Labor Gazette"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "MISSING_NUMBER",
+      "message": "Document number or symbol was not detected.",
+      "severity": "warning"
+    },
+    {
+      "code": "UNPARSED_FRAGMENTS",
+      "message": "Parser captured 5 unparsed fragment(s) for review.",
+      "severity": "warning",
+      "fragmentId": "frag_1_07d7be74"
+    }
+  ],
+  "parseConfidence": 0.62,
+  "rawContent": "<html>\r\n\r\n<body>\r\n    <article>\r\n        <h1>Quy định mẫu về lao động</h1>\r\n        <p>Cơ quan ban hành: Sở Lao động</p>\r\n        <p>Ngày ban hành: 2026-02-01</p>\r\n        <p>Hiệu lực từ: 2026-02-15</p>\r\n        <p>Ghi chú: bản mẫu dùng cho thử nghiệm nội bộ.</p>\r\n        <p>CHƯƠNG I. QUY ĐỊNH CHUNG</p>\r\n        <p>Điều 1. Nguyên tắc áp dụng</p>\r\n        <p>1. Doanh nghiệp cần lưu hồ sơ nhân sự đầy đủ.</p>\r\n        <p>X câu này không theo mẫu chuẩn và cần ghi nhận.</p>\r\n        <p>a) Bố trí làm việc linh hoạt khi có thể.</p>\r\n    </article>\r\n</body>\r\n\r\n</html>",
+  "normalizedContent": "Quy định mẫu về lao động\n\nCơ quan ban hành: Sở Lao động\n\nNgày ban hành: 2026-02-01\n\nHiệu lực từ: 2026-02-15\n\nGhi chú: bản mẫu dùng cho thử nghiệm nội bộ.\n\nCHƯƠNG I. QUY ĐỊNH CHUNG\n\nĐiều 1. Nguyên tắc áp dụng\n\n1. Doanh nghiệp cần lưu hồ sơ nhân sự đầy đủ.\n\nX câu này không theo mẫu chuẩn và cần ghi nhận.\n\na) Bố trí làm việc linh hoạt khi có thể.",
+  "parserVersion": "labor-curated-v1",
+  "sourceType": "official_curated",
+  "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+  "sourceName": "Curated Labor Gazette",
+  "documentType": "labor_law",
+  "metadata": {
+    "title": "Quy định mẫu về lao động",
+    "language": "vi",
+    "issuingBody": "Sở Lao động",
+    "signedDate": "2026-02-01",
+    "effectiveDate": "2026-02-15"
+  },
+  "unparsedFragments": [
+    {
+      "fragmentId": "frag_1_07d7be74",
+      "text": "Quy định mẫu về lao động",
+      "reason": "unrecognized_line_or_uncertain_structure",
+      "lineNumber": 1
+    },
+    {
+      "fragmentId": "frag_2_2f3bd1a7",
+      "text": "Cơ quan ban hành: Sở Lao động",
+      "reason": "unrecognized_line_or_uncertain_structure",
+      "lineNumber": 2
+    },
+    {
+      "fragmentId": "frag_3_3e2229aa",
+      "text": "Ngày ban hành: 2026-02-01",
+      "reason": "unrecognized_line_or_uncertain_structure",
+      "lineNumber": 3
+    },
+    {
+      "fragmentId": "frag_4_639076e3",
+      "text": "Hiệu lực từ: 2026-02-15",
+      "reason": "unrecognized_line_or_uncertain_structure",
+      "lineNumber": 4
+    },
+    {
+      "fragmentId": "frag_5_b12389a3",
+      "text": "Ghi chú: bản mẫu dùng cho thử nghiệm nội bộ.",
+      "reason": "unrecognized_line_or_uncertain_structure",
+      "lineNumber": 5
+    }
+  ],
+  "citations": [
+    {
+      "citationId": "C1",
+      "legalDocumentId": "ld_6aa983693f2b79147bdb4a2a33403ae6",
+      "legalDocumentSectionId": "sec_44b69801e3358223a05be147e10a8c8f",
+      "legalDocumentChunkId": "ck_d111061c45badb63ed4a861141e9c779",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+      "sourceName": "Curated Labor Gazette",
+      "citationLabel": "Article 1",
+      "sectionType": "article",
+      "sectionNumber": "1",
+      "pathKey": "sp_76ed3c42d410849a6fe8eee6"
+    },
+    {
+      "citationId": "C2",
+      "legalDocumentId": "ld_6aa983693f2b79147bdb4a2a33403ae6",
+      "legalDocumentSectionId": "sec_923dd9556eb10687df7da78a16287643",
+      "legalDocumentChunkId": "ck_12591b6775dc3f669b24c9f5868eb5c4",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+      "sourceName": "Curated Labor Gazette",
+      "citationLabel": "Clause 1",
+      "sectionType": "clause",
+      "sectionNumber": "1",
+      "pathKey": "sp_b1c54c1908f8661750ef882c"
+    },
+    {
+      "citationId": "C3",
+      "legalDocumentId": "ld_6aa983693f2b79147bdb4a2a33403ae6",
+      "legalDocumentSectionId": "sec_59da6ba38b737ce3fff98021aa646b7c",
+      "legalDocumentChunkId": "ck_45e21d92b0daeb90868e34c8c62d0c3a",
+      "sourceUrl": "https://labor.example.gov.vn/sample/labor-law-02",
+      "sourceName": "Curated Labor Gazette",
+      "citationLabel": "Point a",
+      "sectionType": "point",
+      "sectionNumber": "a",
+      "pathKey": "sp_1e4739309ff9e5220456e0d2"
+    }
+  ]
+}
