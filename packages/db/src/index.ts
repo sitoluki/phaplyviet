@@ -5,6 +5,12 @@ export { PostgreSQLSnapshotStorage, PostgreSQLSnapshotStorageWithContent } from 
 export { PostgreSQLRetrievalRepository } from './retrievalRepository.js';
 export { AnalyticsRepository, type DailyQualityMetric, type QualityTrendData } from './analyticsRepository.js';
 export {
+    AdminRepository,
+    type IngestErrorRecord,
+    type IngestJobSummary,
+    type IngestOverview,
+} from './adminRepository.js';
+export {
     AnswerContextOrchestrator,
     type AnswerContextOrchestrationResult,
     type AnswerContextOrchestratorOptions,
