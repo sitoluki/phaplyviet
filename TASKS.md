@@ -63,21 +63,29 @@ Planning checklist focused on legal corpus quality first.
 - [x] Validate idempotency guarantees with database constraints.
 
 ## Phase 4 - Search and retrieval
-- [ ] Implement lexical search (PostgreSQL full-text).
+- [x] Implement lexical search (PostgreSQL full-text).
+- [x] Implement retrieval confidence scoring via parse_confidence + retrieval_rank.
+- [x] Add retrieval audit logs via answer_sessions/answer_citations tables.
+- [x] Add full-text search index with citation-aware matching (migration 0007).
 - [ ] Implement vector embeddings and pgvector index.
 - [ ] Build hybrid retrieval and reranking pipeline.
-- [ ] Add retrieval confidence scoring.
-- [ ] Add retrieval audit logs (query -> chunks -> scores).
 
 ## Phase 5 - AI answer layer
-- [ ] Define answer template with mandatory disclaimer + next steps.
-- [ ] Enforce "answer only from retrieved evidence" policy.
-- [ ] Implement citation map rendering IDs and source links.
-- [ ] Implement low-confidence fallback response path.
+- [x] Implement guardrail decision logic (safer_response vs normal mode).
+- [x] Implement low-confidence fallback response path with escalation.
+- [x] Implement citation map linking to chunks and source documents.
+- [x] Create AnswerContextOrchestrator (retrieval + guardrails bundling).
+- [x] Create AnswerAssembler (normal/safer_response formatting with Vietnamese templates).
+- [x] Create LegalAnswerService (orchestration + assembly pipeline).
+- [x] Add answer feedback events mechanism via answer_quality_feedback_events.
+- [ ] Build API endpoint to call LegalAnswerService.
 - [ ] Implement risk routing for high-risk/legal-sensitive prompts.
-- [ ] Add answer feedback events and quality monitoring.
+- [ ] Implement mandatory disclaimer and next steps in answer templates.
 
 ## Phase 6 - Admin tools
+- [ ] Build API endpoint for LegalAnswerService.generateAnswer() - POST /api/retrieval/context.
+- [ ] Store answer_sessions and answer_citations records from API responses.
+- [ ] Emit answer_quality_feedback_events for all queries (mode, escalation, user feedback).
 - [ ] Admin view for ingest job status and parser failures.
 - [ ] Admin tool to review and re-run failed documents.
 - [ ] Admin view for flagged answers and citation trace audit.
