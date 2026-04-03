@@ -16,7 +16,7 @@ import type { PostgreSQLRetrievalRepository } from '../packages/db/src/retrieval
 
 // Mock repository for demonstration
 const mockRepository: PostgreSQLRetrievalRepository = {
-    async getAnswerContextBundle(input) {
+    async getAnswerContextBundle(input: any) {
         console.log(`[Retrieval] Query: "${input.queryText}" | topK=${input.topK} | minConf=${input.minConfidence}`);
         return [
             {
@@ -40,7 +40,7 @@ const mockRepository: PostgreSQLRetrievalRepository = {
         ];
     },
 
-    async summarizeAnswerContextBundle(input) {
+    async summarizeAnswerContextBundle(input: any) {
         console.log(`[Summarize] Aggregating results for query: "${input.queryText}"`);
         return {
             totalResults: 1,

@@ -22,6 +22,9 @@
             "@legal/core/*": [
                 "packages/legal-core/src/*"
             ],
+            "@legal/ai/*": [
+                "packages/ai/src/*"
+            ],
             "@legal/worker/*": [
                 "apps/worker/src/*"
             ]
