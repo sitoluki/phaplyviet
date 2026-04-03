@@ -73,19 +73,37 @@ export class AnswerSessionStorage {
 
     async recordFeedbackEvent(
         answerSessionId: string,
-        feedback: 'helpful' | 'not_helpful' | 'escalated' | 'error',
+        feedbackCategory: 'helpful' | 'not_helpful' | 'escalated' | 'error',
         userComment?: string
     ): Promise<void> {
         const db = getPool();
-        const now = new Date().toISOString();
+
+        // Map inference-based feedback to database feedback_type
+        let feedbackType: string;
+        let isHelpful: boolean | null;
+
+        if (feedbackCategory === 'helpful') {
+            feedbackType = 'thumbs_up';
+            isHelpful = true;
+        } else if (feedbackCategory === 'not_helpful') {
+            feedbackType = 'thumbs_down';
+            isHelpful = false;
+        } else if (feedbackCategory === 'escalated') {
+            feedbackType = 'unsafe_or_uncertain';
+            isHelpful = false;
+        } else {
+            // 'error'
+            feedbackType = 'unsafe_or_uncertain';
+            isHelpful = false;
+        }
 
         await db.query(
             `
             INSERT INTO public.answer_quality_feedback_events (
-                answer_session_id, feedback_type, user_comment, recorded_at
+                answer_session_id, feedback_type, is_helpful, comment_text
             ) VALUES ($1, $2, $3, $4)
             `,
-            [answerSessionId, feedback, userComment ?? null, now]
+            [answerSessionId, feedbackType, isHelpful, userComment ?? null]
         );
     }
 }
