@@ -12,6 +12,25 @@ export function createRetrievalHandler(retrievalRepository: PostgreSQLRetrievalR
     const answerService = new LegalAnswerService(orchestrator, assembler);
     const sessionStorage = new AnswerSessionStorage();
 
+    /**
+     * Infer feedback type based on processing mode and escalation status.
+     * - 'normal' mode + no escalation → 'helpful' 
+     * - 'safer_response' mode + escalation → 'escalated'
+     * - Otherwise → 'uncertain'
+     */
+    function inferFeedbackType(
+        processingMode: 'normal' | 'safer_response',
+        escalated: boolean
+    ): 'helpful' | 'not_helpful' | 'escalated' | 'error' {
+        if (processingMode === 'normal' && !escalated) {
+            return 'helpful';
+        }
+        if (processingMode === 'safer_response' || escalated) {
+            return 'escalated';
+        }
+        return 'not_helpful';
+    }
+
     return async (req: Request, res: Response<RetrievalContextResponse>): Promise<void> => {
         try {
             // Validate request
@@ -37,6 +56,10 @@ export function createRetrievalHandler(retrievalRepository: PostgreSQLRetrievalR
 
             // Store session and citations
             const session = await sessionStorage.storeAnswerSession(result, body.userId);
+
+            // Emit feedback event based on answer mode and escalation
+            const feedbackType = inferFeedbackType(result.processingMode, result.escalated);
+            await sessionStorage.recordFeedbackEvent(session.answerSessionId, feedbackType);
 
             // Return response
             res.status(200).json({
