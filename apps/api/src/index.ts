@@ -1,6 +1,7 @@
 import express, { Express } from 'express';
 import { initDatabase, PostgreSQLRetrievalRepository } from '@legal/db/index';
 import { createRetrievalHandler } from './routes/retrieval';
+import { createAnalyticsHandler } from './routes/analytics';
 
 export async function createApp(): Promise<Express> {
     const app = express();
@@ -19,6 +20,17 @@ export async function createApp(): Promise<Express> {
     // Routes
     const handleRetrieval = createRetrievalHandler(repository);
     app.post('/api/retrieval/context', handleRetrieval);
+
+    const analyticsHandler = createAnalyticsHandler();
+    app.get('/api/analytics/quality', (req, res) =>
+        analyticsHandler.getQualityMetrics(req, res)
+    );
+    app.get('/api/analytics/escalated', (req, res) =>
+        analyticsHandler.getEscalatedAnswers(req, res)
+    );
+    app.get('/api/analytics/quality-by-mode', (req, res) =>
+        analyticsHandler.getQualityByMode(req, res)
+    );
 
     // Health check
     app.get('/health', (req, res) => {
@@ -45,6 +57,9 @@ export async function startServer(port: number = 3000) {
     app.listen(port, () => {
         console.log(`Legal Answer API server running on port ${port}`);
         console.log(`  POST /api/retrieval/context - Generate legal answer with citations`);
+        console.log(`  GET /api/analytics/quality - Daily quality metrics`);
+        console.log(`  GET /api/analytics/escalated - Recent escalated answers`);
+        console.log(`  GET /api/analytics/quality-by-mode - Quality by answer mode`);
         console.log(`  GET /health - Health check`);
     });
 }
