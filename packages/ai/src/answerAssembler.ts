@@ -9,6 +9,7 @@ export interface AnswerAssemblyInput {
     answerMode: AnswerMode;
     escalationRequired: boolean;
     escalationReasons: string[];
+    disclaimer?: string;
 }
 
 export interface LegalAnswer {
@@ -43,11 +44,16 @@ export class AnswerAssembler {
         const citationIds = input.contextBundle.map((chunk) => chunk.legalDocumentChunkId);
 
         // Build the answer content by joining context chunks with citations
-        const answerContent = this.formatLegalAnswerContent(
+        const baseContent = this.formatLegalAnswerContent(
             input.queryText,
             input.contextBundle,
             input.contextSummary
         );
+
+        // Prepend disclaimer if provided
+        const answerContent = input.disclaimer
+            ? `${input.disclaimer}\n\n---\n\n${baseContent}`
+            : baseContent;
 
         return {
             mode: 'normal',

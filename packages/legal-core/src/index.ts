@@ -6,4 +6,5 @@ export * from './ids.js';
 export * from './ingestion.js';
 export * from './normalization.js';
 export * from './parsing.js';
+export * from './riskDetector.js';
 export * from './types.js';
