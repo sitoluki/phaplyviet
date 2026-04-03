@@ -2,3 +2,4 @@ export { initDatabase, getPool, closeDatabase, runMigrations } from './connectio
 export { PostgreSQLSourceRepository } from './sourceRepository.js';
 export { PostgreSQLIngestionRepository } from './ingestionRepository.js';
 export { PostgreSQLSnapshotStorage, PostgreSQLSnapshotStorageWithContent } from './snapshotStorage.js';
+export { PostgreSQLRetrievalRepository } from './retrievalRepository.js';
