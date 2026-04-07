@@ -8,7 +8,7 @@ The project uses environment variables to configure:
 - Database connections (PostgreSQL URLs for development, testing, and real ingestion)
 - Test execution (flag to enable/disable PostgreSQL integration tests)
 
-No configuration files (.env, config files, dotenv) are currently required. Environment variables can be passed directly via shell export or inline when running scripts.
+Use `.env.example` as a baseline for local variables (copy to `.env` for tooling that loads it). Environment variables can also be passed via shell export or inline when running scripts. See `TASKS.md` Phase 0 for env documentation status.
 
 ## Variables by Phase
 

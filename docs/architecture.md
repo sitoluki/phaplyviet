@@ -1,14 +1,26 @@
 # MVP Architecture (Practical, Small-Team)
 
+## 0) Current implementation vs target (this repo)
+
+| Area | Target (blueprint / below) | Status in code today |
+|------|---------------------------|----------------------|
+| Public web | Next.js UI + content/search/chat | **Not started** (no `apps/web`). |
+| Answer API | Persisted answers + citations | **Yes** — `apps/api`: `POST /api/retrieval/context`, sessions, feedback events. |
+| Retrieval | Hybrid lexical + vector + rerank | **Lexical only** — `search_legal_chunks` / `get_answer_context_bundle` (PostgreSQL FTS). |
+| Embeddings | Chunk vectors in pgvector | **Schema ready** (`embedding` column, extension in migrations); **no** TS job to populate vectors. |
+| Admin | Dashboards + tools | **REST only** — analytics + ingest overview/jobs/errors; **no** admin UI. |
+
+The sections below describe the **end-state** architecture; keep the table above as the source of truth for gaps.
+
 ## 1) Goals and constraints
 - Build a legally safer MVP fast, without overbuilding.
 - Prioritize legal corpus integrity and citation traceability.
 - Keep architecture operable by a small startup team.
 
 ## 2) Stack (required)
-- Next.js: public web app + lightweight API endpoints.
+- Next.js: public web app + lightweight API endpoints (**planned**; API today is Express under `apps/api`).
 - PostgreSQL: primary relational storage.
-- pgvector: embedding vectors for legal chunk retrieval.
+- pgvector: embedding vectors for legal chunk retrieval (**extension present in migrations; embedding pipeline TBD**).
 - Background jobs: ingestion, parsing, chunking, embedding, re-index.
 - Object storage: immutable raw snapshots and parse artifacts.
 
@@ -35,14 +47,14 @@
 - Parser intermediate JSON for reproducibility.
 
 5. AI orchestration layer
-- Retrieval pipeline (hybrid lexical + vector + rerank).
+- Retrieval pipeline (target: hybrid lexical + vector + rerank; **current: FTS + guardrails in `packages/db` / `packages/ai`**).
 - Prompt assembly from approved evidence only.
 - Answer guardrails + citation mapping + fallback behavior.
 
 ## 4) Request flow (chat)
-1. User question received in Next.js API.
+1. User question received in API (today: Express; target: Next.js route).
 2. Normalize and classify intent/risk.
-3. Retrieve top legal chunks via hybrid search.
+3. Retrieve top legal chunks (**today: PostgreSQL full-text**; target: hybrid search).
 4. Score confidence and apply guardrail policy.
 5. Build evidence-constrained prompt.
 6. Generate answer with mandatory citation IDs.

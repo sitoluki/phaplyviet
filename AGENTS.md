@@ -21,13 +21,14 @@ This repository builds a Vietnam Legal AI product with one non-negotiable rule:
 - No dead code, no commented-out blocks in production branches.
 
 ## Folder conventions
-- `apps/web`: Next.js app (UI + API routes for lightweight endpoints).
+- `apps/api`: Express API for legal answers (`POST /api/retrieval/context`), analytics, and admin ingest routes.
+- `apps/web`: reserved for Next.js (UI + routes) — **not present yet**; add when starting Phase 7 in `TASKS.md`.
 - `apps/worker`: background ingestion and parsing jobs.
 - `packages/db`: schema, migrations, query helpers.
-- `packages/legal-core`: normalization, parsing, citation, retrieval utilities.
-- `packages/ai`: prompt templates, answer assembly, guardrails.
+- `packages/legal-core`: normalization, parsing, citation, guardrails, risk detection.
+- `packages/ai`: answer assembly, `LegalAnswerService`.
 - `docs`: architecture, corpus plans, ADRs.
-- `infra`: deployment, cron/job config, environment templates.
+- `infra`: deployment, cron/job config (folder may be empty until ops templates land).
 
 ## Migration rules
 - All schema changes must be forward-only migrations.

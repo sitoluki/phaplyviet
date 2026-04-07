@@ -1,7 +1,6 @@
-# Legal AI Vietnam - MVP Planning Repo
+# Legal AI Vietnam
 
-This repository currently contains planning and execution documentation only.
-No full product implementation is included in this step.
+This repository contains **product docs** plus a **working backend foundation**: legal corpus schema and migrations, ingestion worker (labor-law pilot), PostgreSQL-backed **lexical** retrieval, guardrails, and a small **Express API** (`apps/api`) for legal answers with citation traceability. A **public Next.js web app** is not in the tree yet (see `TASKS.md` Phase 7).
 
 ## Product summary (from blueprint source of truth)
 
@@ -30,9 +29,9 @@ No full product implementation is included in this step.
 - Poor legal review bandwidth in early-stage team.
 
 ## MVP architecture direction
-- Frontend/API: Next.js.
-- Primary DB: PostgreSQL.
-- Vector retrieval: pgvector.
+- **Today:** TypeScript monorepo — `apps/api` (Express), `apps/worker`, `packages/db`, `packages/legal-core`, `packages/ai`.
+- **Planned public product:** Next.js app (UI + routes) — to be added under `apps/web` when Phase 7 starts.
+- Primary DB: PostgreSQL (migrations enable **pgvector**; embeddings and hybrid search are **not** wired in application code yet).
 - Background jobs: ingestion + normalization + indexing workers.
 - Object storage: raw legal source artifacts (html/pdf/text snapshots) and parser outputs.
 
@@ -47,7 +46,7 @@ See docs:
 - Assumption A2: Team can support daily ingest checks and weekly legal QA review.
 - Assumption A3: MVP starts with 1-2 legal domains for depth, while keeping taxonomy ready for 4 domains.
 
-## Non-goals in this step
-- No production feature implementation.
-- No final UI polish or brand design.
+## Non-goals (current scope)
+- No public marketing site or authenticated user-facing UI (no `apps/web` yet).
+- No embedding generation pipeline or hybrid vector retrieval in production paths yet.
 - No advanced marketplace or enterprise functionality.

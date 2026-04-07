@@ -22,10 +22,10 @@ Planning checklist focused on legal corpus quality first.
 - [x] Add parser hierarchy, chunk traceability, and no-loss parsing tests.
 
 ## Phase 0 - Repo foundation
-- [x] Initialize minimal workspace structure for legal corpus foundation (`apps/worker`, `packages/*`, `docs`, `tests`).
+- [x] Initialize minimal workspace structure for legal corpus foundation (`apps/worker`, `apps/api`, `packages/*`, `docs`, `tests`).
 - [x] Configure TypeScript, linting, and test runner.
-- [ ] Add environment templates for local/staging/production.
-- [ ] Set up PostgreSQL + pgvector extensions in development.
+- [x] Baseline environment documentation (`.env.example`, `docs/environment.md` with local/staging/production connection examples).
+- [x] PostgreSQL migrations enable `vector` extension and embedding column on chunks (dev/staging/prod DB must run Postgres with pgvector available).
 - [ ] Configure object storage bucket conventions for raw legal sources.
 - [ ] Add baseline observability (structured logs, error tracking hooks).
 
@@ -67,8 +67,8 @@ Planning checklist focused on legal corpus quality first.
 - [x] Implement retrieval confidence scoring via parse_confidence + retrieval_rank.
 - [x] Add retrieval audit logs via answer_sessions/answer_citations tables.
 - [x] Add full-text search index with citation-aware matching (migration 0007).
-- [ ] Implement vector embeddings and pgvector index.
-- [ ] Build hybrid retrieval and reranking pipeline.
+- [ ] Implement vector embeddings (populate `embedding` column; no TS embedding client yet).
+- [ ] Build hybrid retrieval and reranking pipeline (runtime retrieval is FTS-only today).
 
 ## Phase 5 - AI answer layer
 - [x] Implement guardrail decision logic (safer_response vs normal mode).
@@ -78,15 +78,18 @@ Planning checklist focused on legal corpus quality first.
 - [x] Create AnswerAssembler (normal/safer_response formatting with Vietnamese templates).
 - [x] Create LegalAnswerService (orchestration + assembly pipeline).
 - [x] Add answer feedback events mechanism via answer_quality_feedback_events.
-- [ ] Build API endpoint to call LegalAnswerService.
-- [ ] Implement risk routing for high-risk/legal-sensitive prompts.
-- [ ] Implement mandatory disclaimer and next steps in answer templates.
+- [x] Build HTTP API for `LegalAnswerService` (`POST /api/retrieval/context` in `apps/api`).
+- [x] Risk routing for high-risk prompts (`RiskDetector` in `LegalAnswerService`).
+- [x] Baseline Vietnamese disclaimers, confidence footer, and escalation copy in `AnswerAssembler`.
+- [ ] Finalize legal/compliance disclaimer copy and explicit “next steps” per blueprint (all user flows).
 
 ## Phase 6 - Admin tools
-- [ ] Build API endpoint for LegalAnswerService.generateAnswer() - POST /api/retrieval/context.
-- [ ] Store answer_sessions and answer_citations records from API responses.
-- [ ] Emit answer_quality_feedback_events for all queries (mode, escalation, user feedback).
-- [ ] Admin view for ingest job status and parser failures.
+- [x] `POST /api/retrieval/context` — `LegalAnswerService.generateAnswer()` wired with session + citation persistence.
+- [x] Store `answer_sessions` and `answer_citations` from API responses (`AnswerSessionStorage`).
+- [x] Emit `answer_quality_feedback_events` per query (inferred category from mode/escalation).
+- [x] Analytics API: `GET /api/analytics/quality`, `/escalated`, `/quality-by-mode`.
+- [x] Admin ingest API: `GET /api/admin/ingest/overview`, `/jobs`, `/errors`.
+- [ ] Admin UI for ingest job status and parser failures.
 - [ ] Admin tool to review and re-run failed documents.
 - [ ] Admin view for flagged answers and citation trace audit.
 - [ ] Manual re-index action for one document/version.
